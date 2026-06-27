@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Project specific
+*.log
+*.db
+*.sqlite3
+
+# Playwright test artifacts
+.playwright-mcp/
+
+# Claude task output
+ce24965b-65a0-4d94-aa39-043fa9ebbf41/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
